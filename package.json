@@ -1,0 +1,25 @@
+{
+  "name": "auth-demo",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec \"bun run index.ts\" -e \"ts\""
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "logger": "github:owl352/logger",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.0"
+  }
+}
